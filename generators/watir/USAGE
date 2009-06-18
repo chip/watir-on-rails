@@ -5,7 +5,7 @@ Description:
     may be given in CamelCase or under_score and should not be suffixed with
     '_test.rb'.
 
-    The generator creates a Rails Test::Unit::TestCase in test/watir, mixing
+    The generator creates a Rails ActiveSupport::TestCase in test/watir, mixing
     in the WatirOnRails module.
 
 Example:

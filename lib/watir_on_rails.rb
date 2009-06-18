@@ -72,11 +72,9 @@ module WatirOnRails
     @browser_class ||=
     case RUBY_PLATFORM
     when /darwin/i
-      # require_gem "safariwatir"
       require "safariwatir"
       Watir::Safari
     when /mswin/i
-      # require_gem "watir"
       require "watir"
       Watir::IE
     else
