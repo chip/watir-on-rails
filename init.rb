@@ -1,0 +1,1 @@
+require "watir_on_rails"

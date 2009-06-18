@@ -1,0 +1,16 @@
+Description:
+    The Watir generator creates stubs for new Watir tests.
+
+    The generator takes a test scenario as its argument.  The scenario name
+    may be given in CamelCase or under_score and should not be suffixed with
+    '_test.rb'.
+
+    The generator creates a Rails Test::Unit::TestCase in test/watir, mixing
+    in the WatirOnRails module.
+
+Example:
+    ./script/generate watir SuccessfulLogin
+
+    This will create a SuccessfulLoginTest in:
+        test/watir/successful_login_test.rb
+
