@@ -23,9 +23,8 @@ Installation
 You have probably already done this, but just in case...
   script/plugin install svn://rubyforge.org/var/svn/watir-on-rails
   
-For Rails 2.3.2:
-  script/plugin install git://
-
+For version compatible with Rails 2.3.2:
+  script/plugin install git://github.com/chip/watir-on-rails.git 
 
 Generating Tests
 ================
